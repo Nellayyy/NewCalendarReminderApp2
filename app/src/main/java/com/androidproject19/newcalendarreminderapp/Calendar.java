@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.CalendarView;
 
-public class Calendar extends AppCompatActivity {
-    private static final String TAG = "Calendar";
+public class CalendarActivity extends AppCompatActivity {
+    private static final String TAG = "CalendarActivity";
     private CalendarView mCalendarView;
     @Override
     protected void onCreate(Bundle savedInstanceState){
