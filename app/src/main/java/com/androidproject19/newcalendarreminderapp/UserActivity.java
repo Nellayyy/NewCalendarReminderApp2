@@ -70,7 +70,7 @@ public class UserActivity extends AppCompatActivity {
                         @Override
                         public void handleResponse(BackendlessUser response) {
                             Log.i(TAG, "Successful registration for " + response.getEmail());
-                            Intent intent = new Intent(getApplicationContext(), Calendar.class);
+                            Intent intent = new Intent(getApplicationContext(), CalendarActivity.class);
                             startActivity(intent);
                         }
                         @Override
@@ -99,7 +99,7 @@ public class UserActivity extends AppCompatActivity {
                         @Override
                         public void handleResponse(BackendlessUser response) {
                             Log.i(TAG, "Successful Login for " + response.getEmail());
-                            Intent intent = new Intent(getApplicationContext(), Calendar.class);
+                            Intent intent = new Intent(getApplicationContext(), CalendarActivity.class);
                             startActivity(intent);
                         }
                         @Override
